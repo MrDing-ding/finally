@@ -1,0 +1,9 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: order  #服务名称 唯一
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.8.154.6:8848 #配置注册中心的地址
